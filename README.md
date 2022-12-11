@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/hyde/ui-kit.svg?style=flat-square)](https://packagist.org/packages/hyde/ui-kit)
 [![Total Downloads](https://img.shields.io/packagist/dt/hyde/ui-kit.svg?style=flat-square)](https://packagist.org/packages/hyde/ui-kit)
 
-## About 
+## About
 
 The HydePHP UI Kit is a collection of minimalistic and un-opinionated TailwindCSS components for Laravel Blade,
 indented to be used with HydePHP. Note that these components may require CSS classes not present in the bundled app.css
@@ -24,7 +24,7 @@ You can install the package via composer:
 composer require hyde/ui-kit
 ```
 
-Since HydePHP already comes with several built-in views and templates, including a precompiled CSS file to get you started quickly, this package is not required to use HydePHP and is tailored to intermediate-to-advanced users, giving you an excellent productivity boost in kickstarting development of any custom Blade pages.
+Since HydePHP already comes with several built-in views and templates, including a precompiled CSS file to get you started quickly, this package is not required to use HydePHP and is tailored to intermediate-to-advanced users, giving you an excellent productivity boost in kick-starting development of any custom Blade pages.
 
 ## Usage
 
