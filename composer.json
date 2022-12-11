@@ -13,6 +13,19 @@
         }
     ],
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "illuminate/support": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hyde\\UIKit\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hyde\\UIKit\\UIKitServiceProvider"
+            ]
+        }
     }
 }
