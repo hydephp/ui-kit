@@ -1,4 +1,4 @@
-# Hyde UI Kit - Documentation
+# HydePHP UI Kit - Documentation
 
 The HydePHP UI Kit is a collection of minimalistic and un-opinionated TailwindCSS components for Laravel Blade,
 indented to be used with HydePHP. Note that these components may require CSS classes not present in the bundled app.css

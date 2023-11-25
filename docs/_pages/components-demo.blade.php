@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ $page->htmlTitle() }}</title>
+    <title>{{ $page->title() }}</title>
     @include('hyde::layouts.styles')
 </head>
 <body id="app" class="flex flex-col min-h-screen overflow-x-hidden dark:bg-gray-900 dark:text-white">
@@ -18,12 +18,12 @@
         <div class="flex">
             <div class="light">
                 <div class="dark:bg-gray-900 dark:text-white w-[70ch] p-8 border-gray-500 border-r-gray-900 border-2">
-                    @include('ui-examples.components')
+                    @include('components')
                 </div>
             </div>
             <div class="dark">
                 <div class="dark:bg-gray-900 dark:text-white w-[70ch] p-8 border-gray-900 border-2">
-                    @include('ui-examples.components')
+                    @include('components')
                 </div>
             </div>
         </div>
