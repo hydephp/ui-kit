@@ -9,6 +9,15 @@ The HydePHP UI Kit is a collection of minimalistic and un-opinionated TailwindCS
 indented to be used with HydePHP. Note that these components may require CSS classes not present in the bundled app.css
 file and that you may need to recompile the CSS file using the included Laravel Mix configuration.
 
+### Screenshot
+
+![image](https://github.com/hydephp/ui-kit/assets/95144705/6c165487-dfa7-4218-a7f2-b47848bd69b0)
+
+
+### Live Demo
+
+Try it out at https://git.desilva.se/hyde-ui-kit-demo/
+
 ## Warning
 
 The HydePHP UI Kit is still in development and is not yet ready for production use.
