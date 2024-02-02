@@ -35,5 +35,4 @@ jobs:
         with:
           deploy-to: "pages"
           directory: docs
-
-
+          env-torchlight-token: ${{ secrets.TORCHLIGHT_TOKEN }}
