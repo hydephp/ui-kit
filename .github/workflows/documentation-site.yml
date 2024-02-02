@@ -27,6 +27,7 @@ jobs:
           echo "name: HydePHP UI Kit
           load_app_styles_from_cdn: true
           use_play_cdn: true
+          pretty_urls: true
           navigation:
             subdirectories: dropdown
           " > docs/hyde.yml
