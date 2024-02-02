@@ -9,22 +9,6 @@ The HydePHP UI Kit is a collection of minimalistic and un-opinionated TailwindCS
 indented to be used with HydePHP. Note that these components may require CSS classes not present in the bundled app.css
 file and that you may need to recompile the CSS file using the included Laravel Mix configuration.
 
-### Screenshot
-
-![image](https://github.com/hydephp/ui-kit/assets/95144705/6c165487-dfa7-4218-a7f2-b47848bd69b0)
-
-
-### Live Demo
-
-Try it out at https://git.desilva.se/hyde-ui-kit-demo/
-
-## Warning
-
-The HydePHP UI Kit is still in development and is not yet ready for production use.
-All components including their names can and probably will be changed.
-
-Versions in the 0.x range are considered unstable and may contain breaking changes.
-
 ## Installation
 
 You can install the package via composer:
@@ -34,6 +18,7 @@ composer require hyde/ui-kit
 ```
 
 Since HydePHP already comes with several built-in views and templates, including a precompiled CSS file to get you started quickly, this package is not required to use HydePHP and is tailored to intermediate-to-advanced users, giving you an excellent productivity boost in kick-starting development of any custom Blade pages.
+
 
 ## Usage
 
@@ -46,13 +31,12 @@ You can see a list of all available components in the [documentation](https://hy
 
 ## Contributing
 
-Please see the [hydephp/develop](https://github.com/hydephp/develop/issues) monorepo for details.
+Contributions are welcome. Please see the [hydephp/develop](https://github.com/hydephp/develop/issues) monorepo for details.
 
 ### Security
 
 If you discover any security related issues, please email caen@desilva.se instead of using the issue tracker.
 
-There are no backwards compatibility guarantees other than what is implicitly offered through the HydePHP packages requiring this package.
 
 ## License
 
